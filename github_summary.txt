@@ -1,6 +1,9 @@
 
 #generate SSH key, should add it to github.
-ssh-keygen -t ed25519 -C "150589928@qq.com
+ssh-keygen -t rsa -C "150589928@qq.com"
+
+#init to create new repo.
+git init
 
 #init to create new repo.
 git init
